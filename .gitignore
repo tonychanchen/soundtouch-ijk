@@ -1,0 +1,7 @@
+*svn*
+.DS_Store
+.idea/
+xcuserdata
+*xcuserdata*
+WorkspaceSettings.xcsettings
+
