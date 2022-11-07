@@ -69,7 +69,7 @@ int ijk_soundtouch_translate(void *handle, short* data, int len, int bytes_per_s
     do {
         nb = handle_ptr->receiveSamples((SAMPLETYPE*)data, 2048);
         pcm_data_size += nb * n_channel * bytes_per_sample;
-        printf("pcm_size_callback_tran: %d === %d \n",nb,pcm_data_size);
+//        printf("pcm_size_callback_tran: %d === %d \n",nb,pcm_data_size);
     } while (nb != 0);
 
     return pcm_data_size;
